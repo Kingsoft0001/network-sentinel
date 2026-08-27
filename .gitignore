@@ -1,0 +1,23 @@
+﻿# Environment variables and secrets (NEVER commit these)
+.env
+*.env
+*.env.local
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Local cache & logs
+geoip_cache.json
+*.log
+intrusion_alerts.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
