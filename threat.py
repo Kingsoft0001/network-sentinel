@@ -1,4 +1,7 @@
 ﻿import time
+import csv
+import os
+from ml_detector import MLAnomalyDetector
 from collections import defaultdict, deque
 from typing import Dict, Any, List, Optional, Tuple
 
@@ -29,10 +32,35 @@ SENSITIVE_PORTS = {
 class ThreatDetector:
     """Analyzes live connection patterns to detect intrusion attempts, port scans, and anomalies."""
 
-    def __init__(self):
+    def __init__(self, export_csv: bool = True):
         # Maps remote_ip -> deque of (timestamp, local_port)
         self._ip_history = defaultdict(lambda: deque(maxlen=50))
         self._alert_history = []
+        self.export_csv = export_csv
+        self.csv_file = "threat_logs.csv"
+        self.ml_engine = MLAnomalyDetector()
+        
+        if self.export_csv and not os.path.exists(self.csv_file):
+            with open(self.csv_file, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(["Timestamp", "Severity", "Remote_IP", "Local_Port", "Process", "Reasons", "Country", "ISP"])
+
+    def _log_to_csv(self, alert):
+        if not self.export_csv:
+            return
+        with open(self.csv_file, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            geo = alert.get("geo", {})
+            writer.writerow([
+                alert["timestamp"],
+                alert["severity"],
+                alert["remote_ip"],
+                alert["local_port"],
+                alert["process_name"],
+                "; ".join(alert["reasons"]),
+                geo.get("country", "-"),
+                geo.get("isp", "-")
+            ])
 
     def evaluate_connection(
         self,
@@ -58,6 +86,13 @@ class ThreatDetector:
         reasons = []
         severity = "INFO"
 
+        # --- AI / ML Anomaly Detection ---
+        self.ml_engine.observe(remote_ip, local_port, status)
+        is_anomaly, ml_msg = self.ml_engine.predict(remote_ip, local_port, status)
+        if is_anomaly:
+            threat_score += 45
+            reasons.append(f"[AI Alert] {ml_msg}")
+            
         # 1. Check if the connection is targeting a high-risk sensitive port
         if local_port in SENSITIVE_PORTS:
             service = SENSITIVE_PORTS[local_port]
@@ -109,6 +144,8 @@ class ThreatDetector:
         self._alert_history.append(alert)
         if len(self._alert_history) > 100:
             self._alert_history.pop(0)
+
+        self._log_to_csv(alert)
 
         return alert
 

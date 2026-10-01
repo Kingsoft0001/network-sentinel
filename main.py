@@ -151,7 +151,22 @@ def generate_layout(
 
     return layout
 
+
+import json
+
+def load_config():
+    config = {"auto_block": False, "webhook": "", "filter": ""}
+    if os.path.exists("config.json"):
+        try:
+            with open("config.json", "r") as f:
+                file_config = json.load(f)
+                config.update(file_config)
+        except Exception:
+            pass
+    return config
+
 def main():
+
     parser = argparse.ArgumentParser(description="NetSentinel - Windows Network Monitor & Intrusion Blocker")
     parser.add_argument("--auto-block", action="store_true", help="Automatically block detected threats in Windows Firewall")
     parser.add_argument("--webhook", type=str, default="", help="Discord Webhook URL for intrusion notifications")
@@ -162,6 +177,12 @@ def main():
     parser.add_argument("--list-blocked", action="store_true", help="List all IPs currently blocked by NetSentinel and exit")
     parser.add_argument("--once", action="store_true", help="Output a single snapshot table and exit")
     args = parser.parse_args()
+
+    config = load_config()
+    auto_block = args.auto_block or config.get('auto_block', False)
+    webhook = args.webhook if args.webhook else config.get('webhook', '')
+    filter_query = args.filter if args.filter else config.get('filter', '')
+
 
     # Handle manual CLI firewall actions
     if args.block:
@@ -207,7 +228,7 @@ def main():
     geoip = GeoIPResolver()
     scanner = NetworkScanner(geoip)
     threat_engine = ThreatDetector()
-    alerter = AlertManager(args.webhook if args.webhook else None)
+    alerter = AlertManager(webhook if webhook else None)
 
     # Initial quick scan for one-time mode
     if args.once:
@@ -269,7 +290,7 @@ def main():
                         )
                         if threat:
                             auto_blocked = False
-                            if args.auto_block and is_admin:
+                            if auto_block and is_admin:
                                 if threat.get("severity") in ("CRITICAL", "HIGH"):
                                     FirewallManager.block_ip(threat["remote_ip"])
                                     auto_blocked = True
@@ -280,9 +301,9 @@ def main():
                     alerts=threat_engine.get_recent_alerts(10),
                     stats=stats,
                     is_admin=is_admin,
-                    auto_block=args.auto_block,
-                    filter_query=args.filter,
-                    webhook_active=bool(args.webhook)
+                    auto_block=auto_block,
+                    filter_query=filter_query,
+                    webhook_active=bool(webhook)
                 )
 
                 live.update(layout, refresh=True)
