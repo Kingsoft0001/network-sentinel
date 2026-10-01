@@ -3,5 +3,6 @@
     "webhook": "",
     "filter": "",
     "export_csv": true,
-    "auto_kill": false
+    "auto_kill": false,
+    "abuseipdb_api_key": ""
 }

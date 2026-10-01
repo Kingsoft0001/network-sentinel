@@ -2,6 +2,7 @@
 import csv
 import os
 from ml_detector import MLAnomalyDetector
+from threat_intel import ThreatIntelligence
 from collections import defaultdict, deque
 from typing import Dict, Any, List, Optional, Tuple
 
@@ -39,6 +40,17 @@ class ThreatDetector:
         self.export_csv = export_csv
         self.csv_file = "threat_logs.csv"
         self.ml_engine = MLAnomalyDetector()
+        
+        # Load abuseipdb key from config
+        ti_key = ""
+        try:
+            import json
+            with open("config.json", "r") as cf:
+                conf = json.load(cf)
+                ti_key = conf.get("abuseipdb_api_key", "")
+        except:
+            pass
+        self.ti_engine = ThreatIntelligence(ti_key)
         
         if self.export_csv and not os.path.exists(self.csv_file):
             with open(self.csv_file, 'w', newline='', encoding='utf-8') as f:
@@ -118,6 +130,12 @@ class ThreatDetector:
             reasons.append(f"Scripting host ({process_name}) establishing external network socket")
 
         # Determine severity level
+        # --- Global Threat Intelligence Check ---
+        ti_score = self.ti_engine.get_ip_reputation(remote_ip)
+        if ti_score > 50:
+            threat_score += 60
+            reasons.append(f"[Global Intel] IP has AbuseIPDB score of {ti_score}/100")
+            
         if threat_score >= 70:
             severity = "CRITICAL"
         elif threat_score >= 40:
