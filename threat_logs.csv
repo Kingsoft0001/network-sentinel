@@ -1,0 +1,180 @@
+Timestamp,Severity,Remote_IP,Local_Port,Process,Reasons,Country,ISP
+2026-10-01 10:42:22,HIGH,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:22,HIGH,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (4 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:22,HIGH,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (5 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:22,HIGH,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:22,HIGH,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:23,HIGH,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,HIGH,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,HIGH,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,HIGH,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,HIGH,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (15 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (16 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (17 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,HIGH,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:25,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (18 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (19 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,HIGH,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (20 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,HIGH,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (21 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (22 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (23 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,HIGH,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:26,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (24 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (25 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,HIGH,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (26 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,HIGH,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (27 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (28 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (29 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (15 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:28,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (30 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (31 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (16 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (32 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (17 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (33 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (34 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (35 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (18 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:29,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (36 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (37 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (19 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (38 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (20 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (39 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (40 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (41 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (21 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:31,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (42 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (43 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (15 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (15 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:32,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (22 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (15 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (44 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (16 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (23 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (15 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:32,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (16 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (45 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (16 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:32,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (16 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (46 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (47 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (24 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:32,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (48 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (49 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (17 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (17 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:34,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (25 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (17 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (18 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (26 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (17 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:34,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (18 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (18 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:34,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (18 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (27 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:34,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (19 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (19 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:35,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (28 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (19 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (20 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (29 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (19 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:35,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (20 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (20 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:35,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (20 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (30 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:35,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (21 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (21 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:37,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (31 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (21 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (22 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (32 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (21 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:37,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (22 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (22 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:37,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (22 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (33 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:37,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (23 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (23 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:39,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (34 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (23 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (24 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (35 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (23 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:39,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (24 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (24 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:39,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (24 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (36 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:39,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (25 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (25 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:40,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (37 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (25 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (26 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (38 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (25 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:40,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (26 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (26 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:40,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (26 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (39 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:40,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54455,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,150.171.31.254,59047,msedgewebview2.exe,High connection frequency (27 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,13.107.246.48,53802,msedgewebview2.exe,High connection frequency (15 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,185.199.108.133,56986,brave.exe,High connection frequency (27 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:42,CRITICAL,2603:1040:a06:6::2,49553,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (40 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,2603:1046:c04:1421::2,63640,explorer.exe,High connection frequency (27 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54454,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,2603:1046:c04:1421::2,63641,explorer.exe,High connection frequency (28 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1040:a06:6::2,49554,svchost.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (41 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,57.155.142.113,52591,MsMpEng.exe,High connection frequency (27 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:42,MEDIUM,150.171.31.254,49930,msedgewebview2.exe,High connection frequency (28 requests in 30s),United States,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54450,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,MEDIUM,57.155.142.113,53533,MsMpEng.exe,High connection frequency (28 requests in 30s),Singapore,MICROSOFT
+2026-10-01 10:42:42,MEDIUM,185.199.108.133,64579,brave.exe,High connection frequency (28 requests in 30s),United States,"Fastly, Inc."
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54452,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54453,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1040:a06:6::2,55320,OneDrive.exe,Port Scan pattern detected (3 distinct ports targeted in 30s); High connection frequency (42 requests in 30s),India,Microsoft Corporation
+2026-10-01 10:42:42,CRITICAL,2603:1063:2001:192b::365:ff1,54451,explorer.exe,Port Scan pattern detected (6 distinct ports targeted in 30s); High connection frequency (50 requests in 30s),India,Microsoft Corporation

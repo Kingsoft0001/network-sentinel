@@ -176,6 +176,7 @@ def main():
     parser.add_argument("--unblock-all", action="store_true", help="Remove all NetSentinel firewall rules and exit")
     parser.add_argument("--list-blocked", action="store_true", help="List all IPs currently blocked by NetSentinel and exit")
     parser.add_argument("--once", action="store_true", help="Output a single snapshot table and exit")
+    parser.add_argument("--test-alert", action="store_true", help="Send a test alert to Discord and exit")
     args = parser.parse_args()
 
     config = load_config()
@@ -211,6 +212,28 @@ def main():
             sys.exit(1)
         count = FirewallManager.unblock_all()
         console.print(f"[bold green]✅ Successfully removed {count} NetSentinel firewall rules.[/bold green]")
+        return
+
+    if args.test_alert:
+        if not webhook:
+            console.print("[bold red]❌ Error: No Discord webhook configured in config.json or via --webhook.[/bold red]")
+            sys.exit(1)
+        alerter = AlertManager(webhook)
+        test_threat = {
+            "timestamp": "JUST NOW",
+            "remote_ip": "192.168.1.99",
+            "remote_port": 54321,
+            "local_port": 3389,
+            "process_name": "svchost.exe",
+            "status": "ESTABLISHED",
+            "severity": "CRITICAL",
+            "score": 95,
+            "reasons": ["[AI Alert] AI detected irregular behavior (Freq: 50, Port: 3389)", "Targeting sensitive port 3389 (RDP)"],
+            "geo": {"country": "TestCountry", "city": "TestCity", "isp": "Test ISP"}
+        }
+        console.print("[yellow]Sending test alert to Discord...[/yellow]")
+        alerter.send_discord_alert(test_threat, auto_blocked=True)
+        console.print("[bold green]✅ Test alert sent! Check your Discord.[/bold green]")
         return
 
     if args.list_blocked:

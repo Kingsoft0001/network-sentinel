@@ -38,9 +38,16 @@ A standalone, real-time network traffic and intrusion detection system (IDS) bui
 
 ## 📸 Screenshots
 
-*(⚠️ Developer Tip: Replace this placeholder with an actual screenshot or GIF of your tool running in the terminal and a picture of the Discord alerts!)*
+*(⚠️ Developer Tip: Edit this README on GitHub and paste your screenshots below by deleting the placeholder links and pressing `Ctrl+V`!)*
 
+### 1. Web Dashboard (Live Traffic & AI Analysis)
+> <img src="https://via.placeholder.com/800x400.png?text=Add+Web+Dashboard+Screenshot+Here" alt="Web Dashboard">
+
+### 2. Live Terminal (IDS Engine)
 > <img src="https://via.placeholder.com/800x400.png?text=Add+Terminal+Screenshot+Here" alt="Terminal UI">
+
+### 3. Discord Threat Alerts
+> <img src="https://via.placeholder.com/400x200.png?text=Add+Discord+Alert+Screenshot+Here" alt="Discord Alerts">
 
 ## 🛠 Prerequisites
 
