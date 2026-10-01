@@ -2,5 +2,6 @@
     "auto_block": false,
     "webhook": "",
     "filter": "",
-    "export_csv": true
+    "export_csv": true,
+    "auto_kill": false
 }

@@ -1,6 +1,7 @@
 ﻿import argparse
 import os
 import sys
+import psutil
 import time
 from rich.console import Console
 from rich.table import Table
@@ -154,6 +155,20 @@ def generate_layout(
 
 import json
 
+
+def load_whitelist():
+    whitelist = set(["127.0.0.1", "0.0.0.0"])
+    try:
+        if os.path.exists("whitelist.txt"):
+            with open("whitelist.txt", "r") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#"):
+                        whitelist.add(line)
+    except Exception:
+        pass
+    return whitelist
+
 def load_config():
     config = {"auto_block": False, "webhook": "", "filter": ""}
     if os.path.exists("config.json"):
@@ -180,6 +195,8 @@ def main():
     args = parser.parse_args()
 
     config = load_config()
+    whitelist = load_whitelist()
+    auto_kill = config.get('auto_kill', False)
     auto_block = args.auto_block or config.get('auto_block', False)
     webhook = args.webhook if args.webhook else config.get('webhook', '')
     filter_query = args.filter if args.filter else config.get('filter', '')
@@ -313,7 +330,28 @@ def main():
                         )
                         if threat:
                             auto_blocked = False
-                            if auto_block and is_admin:
+                            is_whitelisted = threat["remote_ip"] in whitelist
+                            
+                            if is_whitelisted:
+                                threat["reasons"].append("[WHITELISTED] Action bypassed")
+                            else:
+                                if auto_block and is_admin:
+                                    if threat.get("severity") in ("CRITICAL", "HIGH"):
+                                        FirewallManager.block_ip(threat["remote_ip"])
+                                        auto_blocked = True
+                                        
+                                if auto_kill and is_admin:
+                                    if threat.get("severity") == "CRITICAL" and c["pid"] > 0:
+                                        try:
+                                            psutil.Process(c["pid"]).kill()
+                                            threat["reasons"].append(f"[KILLED] Process {c['pid']} terminated")
+                                        except Exception:
+                                            pass
+                            
+                            # Skip alert if just a minor warning on whitelisted IP
+                            if is_whitelisted and threat.get("severity") not in ("CRITICAL", "HIGH"):
+                                continue
+
                                 if threat.get("severity") in ("CRITICAL", "HIGH"):
                                     FirewallManager.block_ip(threat["remote_ip"])
                                     auto_blocked = True
